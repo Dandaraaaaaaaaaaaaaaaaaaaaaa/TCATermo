@@ -318,7 +318,7 @@ public class MetodosTermo {
 
             if (simOuNao.equals("n")) {
 
-                double doublePorcentagem = vitorias / rodadas * 100.0;
+                double doublePorcentagem = (vitorias * 100.0) / rodadas;
                 int porcentagem = (int) doublePorcentagem;
 
                 System.out.println();
