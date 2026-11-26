@@ -330,12 +330,12 @@ public class MetodosTermo {
                 System.out.println("╔════════════════════════════════════╗");
                 System.out.println("║            SEU PROGRESSO           ║");
                 System.out.println("╠════════════════════════════════════╣");
-                System.out.printf("║  Rodadas jogadas:            %4d   ║%n", rodadas);
-                System.out.printf("║  Vitórias:                   %4d   ║%n", vitorias);
-                System.out.printf("║  %% de vitórias:          %3d%%   ║%n", porcentagem);
+                System.out.printf("║  Rodadas jogadas:            %4d  ║%n", rodadas);
+                System.out.printf("║  Vitórias:                   %4d  ║%n", vitorias);
+                System.out.printf("║  %% de vitórias:             %3d%%  ║%n", porcentagem);
                 System.out.println("╟────────────────────────────────────╢");
-                System.out.printf("║  Sequência atual:            %4d   ║%n", sequenciaVitorias);
-                System.out.printf("║  Melhor sequência:           %4d   ║%n", melhorSequencia);
+                System.out.printf("║  Sequência atual:            %4d  ║%n", sequenciaVitorias);
+                System.out.printf("║  Melhor sequência:           %4d  ║%n", melhorSequencia);
                 System.out.println("╚════════════════════════════════════╝");
                 TocarSom.tocarSom("FEIN.wav", true);
                 return;
